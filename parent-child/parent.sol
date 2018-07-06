@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-import  "";
+import  "https://github.com/kaumohit/parent-child/parent-child/Child.sol ";
 
 contract Parent{
   address owner;
@@ -10,6 +10,6 @@ contract Parent{
   }
 
   function createChild() {
-    Child child = new Child()
+    Child child = new Child();
   }
 }
